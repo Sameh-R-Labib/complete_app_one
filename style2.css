@@ -1,0 +1,393 @@
+/*
+CSS for Bubble Under site
+*/
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color:  #fdfcb6;
+  line-height: 125%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 225%;
+  line-height: 100%;
+  color: #5a0600;
+  font-weight: bolder;
+  padding-top: .7em;
+  padding-bottom: 0.7em;
+  margin: 0;
+}
+
+#header h1 {
+  font-style: italic;
+  font-weight: normal;
+  color: #8a8a8a;
+  font-family: Georgia, Times, serif;
+  font-size: large;
+  line-height: 125%;
+  padding-top: .60em;
+  padding-bottom: .36em;
+  padding-left: .3em;
+  margin: 0;
+  background: #060606 url(cooltext435290476.gif) no-repeat right;
+}
+
+h2 {
+  color: #601308;
+  font-size: 195%;
+  line-height: 100%;
+  font-weight: bolder;
+  padding-top: 1.8em;
+  margin: 0;
+  margin-bottom: -.01em;
+}
+
+h3 {
+  color: #4f0600;
+  font-size: 156%;
+  line-height: 100%;
+  font-weight: bolder;
+  font-family: Times;
+  padding-top: 2.0em;
+  margin: 0;
+  margin-bottom: -.14em;
+}
+
+h4 {
+  color: #4f0600;
+  font-size: 112%;
+  line-height: 100%;
+  font-weight: normal;
+  padding-top: 2.2em;
+  margin: 0;
+  margin-bottom: 0.8em;
+}
+
+h5 {
+  color: #0F6400;
+  font-size: 94%;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Times;
+  padding-top: 0.8em;
+  margin: 0;
+  margin-bottom: -.68em;
+}
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+li {
+  font-size: small;
+}
+
+ol {
+  color: #5a2300;
+}
+
+p {
+  font-size: small;
+  color: #5a2300;
+}
+
+blockquote {
+  font-size: small;
+  color: #5a2300;
+}
+
+p.footcopy {
+  position: relative;
+  width: 500px;
+  left: 235px;
+  color: #5a2300;
+  font-size: x-small;
+  line-height: 119%;
+}
+
+p.errmsg {
+  color: #ff0600;
+}
+
+pre {
+  display: block;
+  border: #000 solid 1px;
+  overflow: auto;
+  max-height: 340px;
+  font-size: 12px;
+  line-height: 127%;
+  width: 678px;
+  padding: 5px 5px 5px 5px;
+  background: #FBFBFB;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+li {
+  font-size: small;
+  color: #5a2300;
+}
+
+em {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 100%;
+  color: #065a10;
+/*  text-transform: uppercase; */
+}
+
+em.highlight {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  color: #5a2300;
+  background-color: #EDFF8D;
+}
+
+a {
+  font-weight: normal;
+}
+
+a:link {
+  color: #7a2300;
+}
+
+a:visited {
+  color: #9f7c16;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+a:active {
+  color: aqua;
+  background-color: black;
+}
+
+#navright li {
+  list-style-type: none;
+}
+
+#navright ul {
+  margin: 4px;
+}
+
+#bodycontent ul {
+  margin-top: -9px;
+}
+
+#pagetop p {
+  margin: 0;
+}
+
+img.navrtimg {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 32px;
+}
+
+table.events {
+  border-collapse: collapse;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+table.events th, table.events td {
+  padding: 4px;
+  border: 1px solid #5a0600;
+}
+
+table.events th {
+  font-size: x-small;
+  text-align: left;
+  background: #741324;
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+table.events td {
+  font-size: small;
+  color: #5a2300;
+  vertical-align: top;
+  background: #fceadc;
+}
+
+table.events p, table.events blockquote {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+table.events blockquote {
+  margin-top: -9px;
+  line-height: 123%;
+}
+
+table.events caption {
+  color: #5a0600;
+  font-size: small;
+  text-align: left;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+form.loginform fieldset {
+  border: 2px solid #3a0300;
+  padding: 10px;
+  padding-top: 0;
+  margin-top: 15px;
+}
+
+form.loginform legend {
+  font-weight: bold;
+  font-size: small;
+  color: #5a2300;
+  padding: 5px;
+}
+
+form.loginform {   
+  padding: 0;
+  margin: 0;   
+  margin-top: -8px;
+  line-height: 150%;
+}
+
+form.loginform label {
+  font-weight: bold;   
+  font-size: small;   
+  color: #067100;
+}
+
+form.loginform label.fixedwidth {
+  display: block;
+  width: 240px;
+  float: left;
+}
+
+form.loginform .buttonarea input {   
+  background: #004600;
+  color: white;   
+  font-weight: bold;   
+  padding: 5px;   
+  border: 1px solid white; 
+}
+
+form.loginform .buttonarea {
+  margin-top: 10px;
+  text-align: center;   
+  padding: 4px;   
+  background-color: #72af35; 
+}
+
+.formcomment {
+  color: blue;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.remarkbox {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 40px;
+  margin-left: 43px;
+}
+
+.rbtitle {
+  background-color: #FFE523;
+  text-align: center;
+  color: #733630;
+  font-weight: 600;
+  font-size: 71%;
+  line-height: 116%;
+  padding: 0;
+  margin: 0;
+}
+
+.rbcontent {
+  background-color: #fbf8b2;
+  border: 3px solid #FFD613;
+  border-top-width: 1px;
+  padding-right: 11px;
+  padding-left: 11px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+/*
+This section deals with the position of items on the screen.
+It uses absolute positioning - fixed x and y coordinates measured from the
+top-left corner of the browser's content display.
+*/
+
+#bodycontent, #header, #navright, #navleft {
+  position: absolute;
+}
+
+#bodycontent {
+  z-index: 3;
+  top: 40px;
+  left: 216px;
+  width: 692px;
+  margin: 0;
+  padding-top: 0;
+  border-top: 3px solid #592000;
+}
+
+#header {
+  z-index: 3;
+  width: 1075px;
+  border-top: 3px solid #592000;
+}
+
+#navright {
+  z-index: 3;
+  top: 40px;
+  width: 173px;
+  left: 902px;
+  border-top: 3px solid #592000;
+}
+
+#navleft {
+  z-index: 5;
+  top: 40px;
+  width: 216px;
+  margin: 0;
+  padding-top: 0;
+  border-top: 3px solid #400700;
+}
+
+#footer {
+  position: relative;
+  top: 65px;
+  padding-bottom: 3px;
+  z-index: 3;
+}
+
+#pagetop {
+  position: relative;
+  display: block;
+  border: #000 solid 1px;
+  overflow: auto;
+  top: 5px;
+  height: 55px;
+  line-height: 125%;
+  padding-bottom: 3px;
+  z-index: 3;
+  padding: 5px 5px 5px 5px;
+  background: #FFDD33;
+  margin: 1em 0;
+}
